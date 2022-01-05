@@ -21,7 +21,7 @@ header {
   justify-content: center;
 }
 
-h1{
+h1 {
   font-size: 4em;
   color: white;
   text-transform: uppercase;
@@ -45,10 +45,6 @@ img {
   max-width: 200px;
 }
 
-#aboutus{
-  clear:left;
-}
-
 .sidebar {
   list-style: none;
   position: fixed;
@@ -62,7 +58,6 @@ img {
   border:solid 1px white;
   text-transform: uppercase;
   text-align: center;
-
 }
 
 .sidebar a {
@@ -72,4 +67,11 @@ img {
 
 .sidebar li:hover{
   background-color: rgba(77, 72, 72, 0.5);
+}
+
+p {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  text-align: center;
 }
