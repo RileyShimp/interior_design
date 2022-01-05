@@ -1,6 +1,7 @@
 body {
   font-family: lato;
   margin: 0;
+  background-color: rgb(250, 241, 229);
 }
 
 header {
@@ -14,11 +15,22 @@ header {
   height: 100%;
   width: 100%;
   background-color: rgba(77, 72, 72, 0.5);
-  color: white;
-  text-transform: uppercase;
+  
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1{
+  font-size: 4em;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  size: 2em;
+  text-transform: uppercase;
 }
 
 .column { 
