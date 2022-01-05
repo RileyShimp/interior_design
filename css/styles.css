@@ -9,7 +9,7 @@ header {
   background-size: cover;
 }
 
-.overlay  {
+.overlay {
   text-align: center;
   height: 100%;
   width: 100%;
@@ -37,3 +37,27 @@ img {
   clear:left;
 }
 
+.sidebar {
+  list-style: none;
+  position: fixed;
+  right: 0;
+  margin: 0;
+}
+
+.sidebar li{
+  padding: 7px 25px;
+  background-color: rgb(110, 191, 194);
+  border:solid 1px white;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar li:hover{
+  background-color: rgba(77, 72, 72, 0.5);
+}
