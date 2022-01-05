@@ -35,7 +35,7 @@ h2 {
 
 .column { 
   padding: 10px;
-  width: 30%;
+  width: 33%;
   float: left;
   box-sizing:border-box;
   text-align:center;
@@ -74,4 +74,41 @@ p {
   width: 50%;
   padding: 20px;
   text-align: center;
+}
+
+#contact {
+  padding: 20px;
+}
+
+#contact li {
+  list-style: none;
+  padding: 10px;
+}
+
+form {
+  width: 100%;
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  font-size: 14px;
+}
+
+#submit {
+  width: 100px;
+  float: left;
+  background-color: black;
+  color: white;
+  font-weight:800;
+  text-transform: uppercase;
+  border: solid 2px white;
+  padding: 15px 20px;
+}
+
+#submit:hover {
+  background-color: rgb(75, 71, 71);
 }
